@@ -1,0 +1,28 @@
+h2 {
+    background: radial-gradient(circle, yellow, orange,red)
+}
+
+p{
+    box-shadow: 5px, 5px, 15px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    animation: moveBox 2s infinite alternate;
+}
+@keyframes moveBox {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(400px);
+    }
+}
+
+div {
+    /* transform: scale(0.8); */
+    /* transform: rotate(45deg); */
+}
