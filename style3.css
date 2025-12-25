@@ -1,0 +1,57 @@
+button {
+    background-color: blueviolet;
+    color: white;
+    transition: background 0.5 ease;
+    cursor: pointer;
+}
+
+/* div {
+    transform: translate(50px); 
+    transform: rotate(45deg);
+     transform: scale(1.5);
+    transform: translate(50px);
+    rotate: 30deg;
+} */
+
+
+#animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: moveBox 2s infinite alternate;
+}
+@keyframes moveBox {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(400px);
+    }
+}
+
+#shadow {
+    text-shadow: 2px 2px 5px gray;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#gradient {
+    background: linear-gradient(to right, blue, red)
+    /* background: linear-gradient(circle, yellow, orange, red); */
+}
+
+:root {
+    --main-color:blue;
+    --text-size:20px;
+}
+
+h4{
+    color: var(--main-color);
+    font-size: var(--text-size);
+}
+
+img {
+    filter: blur(2px);
+}
+img:hover {
+    filter: brightness(120%);
+}

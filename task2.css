@@ -1,0 +1,18 @@
+div{
+    position: fixed;
+    top: 0;
+    display: flex;
+    position: sticky;
+}
+#title {
+    position:fixed;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 576px){
+    .items{
+        display: flex;
+    }
+}

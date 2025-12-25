@@ -1,0 +1,71 @@
+/* universal selector
+* {
+    padding: 2;
+    margin: 2;
+}
+/* element selector */
+p {
+    color: rebeccapurple;
+    font-size: 24px;
+}
+/* class selector */
+.p2 {
+    color: red;
+}
+/* ID selector */
+#p3 {
+    color:brown;
+}
+/* Group Selector */
+/* span, div {
+    color: rgb(85, 4, 85);
+}
+
+div {
+    color:aquamarine;
+    text-decoration:line-through;
+}
+
+h2 {
+    color: bisque;
+    text-transform: uppercase;
+} */
+
+#spacing {
+    color: blueviolet;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 3;
+}
+
+#font {
+    color: brown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+} 
+
+#bg {
+    background-color:antiquewhite;
+    color: blueviolet;
+    background-image:none;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+h3 {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#box {
+    width: 600px;
+    height: 400px;
+    text-align:center;
+    padding: 10px;
+    margin: 30px;
+    border: 2px solid black;
+}
+
