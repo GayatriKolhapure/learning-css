@@ -36,7 +36,7 @@ button {
 
 #gradient {
     background: linear-gradient(to right, blue, red)
-    /* background: linear-gradient(circle, yellow, orange, red); */
+    /* background: radial-gradient(circle, yellow, orange, red); */
 }
 
 :root {
@@ -54,4 +54,5 @@ img {
 }
 img:hover {
     filter: brightness(120%);
+
 }
